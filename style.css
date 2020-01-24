@@ -1,0 +1,83 @@
+html {
+  background-color: burlywood;
+}
+#panel-1 {
+  background-color: greenyellow;
+  font-family: "Righteous", cursive;
+  height: 100vw;
+  width: 49.4%;
+  float: left;
+  border: solid 3p darksalmon;
+  margin-right: 0%;
+}
+#panel-2 {
+  background-color: fuchsia;
+  font-family: "Righteous", cursive;
+  height: 100vw;
+  width: 49.4%;
+  float: right;
+  border: solid 3px blanchedalmond;
+  margin-left: 0%;
+  font-family: ‘bangers’, cursive;
+  font-size: 40px;
+}
+
+h1 {
+  text-align: center;
+  background-color: burlywood;
+  border-radius: 20%;
+  padding: 10px;
+  position: absolute;
+  transform: translateX(-50%);
+  top: 50%;
+  left: 50%;
+  border: black 2px dashed;
+  animation: blur-out-contract 1s infinite both;
+}
+
+@-webkit-keyframes blur-out-contract {
+  0% {
+    -webkit-filter: blur(0.01);
+    filter: blur(0.01);
+  }
+  100% {
+    letter-spacing: -0.5em;
+    -webkit-filter: blur(12px) opacity(0%);
+    filter: blur(12px) opacity(0%);
+  }
+}
+
+.button {
+  height: 100px;
+  font-family: "Righteous", cursive;
+  width: 300px;
+  margin-top: 5%;
+  margin-left: 5%;
+  font-family: ‘bangers’, cursive;
+  font-size: 15px;
+  border-radius: 50%;
+  transition: 1s;
+}
+
+button:hover {
+  background-color: slategray;
+  transform: scale 1.2s;
+}
+#player-choice {
+  margin: 5%;
+}
+#cpu-choice {
+  margin: 5%;
+}
+#img-rock {
+  height: 100px;
+  width: 100px;
+  background-color: blanchedalmond;
+}
+#results {
+  margin: 5%;
+}
+
+p {
+  font-family: "Righteous", cursive;
+}

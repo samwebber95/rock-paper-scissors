@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Righteous&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div>
+      <label>What is your name?<input id="username-input"/></label>
+      <button id="username-btn"></button>
+    </div>
+    <div id="panel-1">
+      <p id="username-display"></p>
+      <button id="rock" class="button">Rock</button>
+      <!--<img id = “img-rock” src = “https://mpng.pngfly.com/20180705/sfh/kisspng-rockpaperscissors-computer-icons-clip-art-paper-scissors-5b3e1287be5a43.5750598415307946317797.jpg”> -->
+      <button id="paper" class="button">Paper</button>
+      <button id="scissors" class="button">Scissor sisters</button>
+      <p id="wins" class="scores">Player Score:</p>
+      <p id="losses" class="scores">Computer Score:</p>
+      <p id="draws" class="scores">Draws:</p>
+    </div>
+    <div id="panel-2">
+      <p id="player-choice">Player chooses:</p>
+      <p id="cpu-choice">Computer chooses:</p>
+      <p id="results">Who Wins?</p>
+      <section>
+        <ul id="history"></ul>
+      </section>
+      <div>
+        <img
+          id="akon"
+          src="http://images6.fanpop.com/image/photos/33900000/Slim-Shady-eminem-33936372-250-252.jpg"
+        />
+      </div>
+    </div>
+    <h1 id="header">Let’s Play</h1>
+    <script src="rps.js"></script>
+  </body>
+</html>
